@@ -2,6 +2,6 @@
 My notes through advanced level in JavaScript course.
 
 ## Backend Part:
-### [Preparing week]
+### [Preparing Week]
 
 ## Frontent Part:
