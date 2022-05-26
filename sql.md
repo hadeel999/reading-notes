@@ -1,9 +1,9 @@
 # Introduction to SQL
-- [CREATE TABLE]: used to create a new table.
-- [SELECT TABLE]: to display table contents.
-- [ALTER TABLE]: to create new columns or drop them.
-- [UPDATE TABLE]: to update table values.
-- [DROP TABLE]: to delete the table.
+- [CREATE TABLE]: used to create a new table
+- [SELECT TABLE]: to display table contents
+- [ALTER TABLE]: to create new columns or drop them
+- [UPDATE TABLE]: to update table values
+- [DROP TABLE]: to delete the table
 
 ## SQL Lesson 1:
 
