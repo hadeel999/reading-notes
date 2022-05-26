@@ -1,4 +1,4 @@
-# Prep SQL
+# Introduction to SQL
 - [CREATE TABLE]: used to create a new table.
 - [SELECT TABLE]: to present table contents.
 - [ALTER TABLE]: to create new columns or drop them.
