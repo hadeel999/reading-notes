@@ -9,6 +9,7 @@
 ### [Typing Practice](./type.md)
 ### [Git Practice](./gitPractice.md)
 ### [Bash Command Line Tutorials](./commandLine.md)
+### [Read 01 - TDD](./tdd.md)
 
 ## Backend Part:
 
