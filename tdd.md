@@ -3,7 +3,7 @@
 ## Node Introduction
 Node (or more formally Node.js) is an open-source, cross-platform runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript.
 
-### benefits of Node:
+### Benefits of Node:
 - Great performance! Node was designed to optimize throughput and scalability in web applications and is a good solution for many common web-development problems.
 - Code is written in "plain old JavaScript", which means that less time is spent dealing with "context shift" between languages when you're writing both client-side and server-side code.
 - JavaScript is a relatively new programming language and benefits from improvements in language design when compared to other traditional web-server languages as Python, PHP, etc.
