@@ -9,7 +9,7 @@ The command line typically presents you with a prompt. As you type, it will be d
 - If on Linux then you will probably find it in Applications -> System or Applications -> Utilities. Alternatively you may be able to 'right-click' on the desktop and there may be an option 'Open in terminal'.
 - If you are on Windows and intend to remotely log into another machine then you will need an SSH client. A rather good one is Putty (free).
 
-
+ 
 ## Basic Navigation
 Many tasks rely on being able to get to, or reference the correct location in the system. To do this, use these comands in below:
 - pwd: Print Working Directory - ie. where are we currently.
