@@ -15,7 +15,7 @@ Node (or more formally Node.js) is an open-source, cross-platform runtime enviro
 ## Express Introduction
 Express is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks.
 
-### Most Important Commands of Express
+### Most Important Methods of Express
 - POST.
 - PUT.
 - DELETE.
