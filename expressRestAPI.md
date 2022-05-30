@@ -7,6 +7,7 @@ Classes are a template for creating objects.
 
 #### Class expressions:
 It is another way to define a class.
+
 ![defineClass1](https://user-images.githubusercontent.com/103508563/170986295-a51ebd6e-9149-4a90-ab14-8d3daaa56846.PNG)
 #### Methods definitions:
 ![defineClass2](https://user-images.githubusercontent.com/103508563/170986946-f6095089-e687-4e85-b246-b0018c436526.PNG)
