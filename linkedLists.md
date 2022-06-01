@@ -27,20 +27,20 @@ A Linked List is a sequence of Nodes that are connected/linked to each other. Th
 - Circular Linked List: Is a little odd in that it doesn’t end with a node pointing to a null value. Instead, it has a node that acts as the tail of the list (rather than the conventional head node), and the node after the tail node is the beginning of the list. 
 
 ### Important Notes of Linked Lists:
-###### The best way to traverse through a linked list is by using (while()) loop.
-###### Traversing linked list has Big O of time = O(n) and Big O of space = O(1).
-###### Adding Nodes can be done in the begining of the linked list with `Add()` method and in the middle of it by `AddBefor()`or `AddAfter()` methods.
-###### Linked lists can be linear structured (traversed sequentially) and non-linear structured (traversed non-sequentially).
-###### Linked lists don't need to be continuous in memory(as arrays), they can grow dynamically.
-###### Parts of linked lists: Head(starting point) and the end of the list isn’t a node, but rather a node that points to null, or an empty value.
-###### Each single node must have two element:
+#### The best way to traverse through a linked list is by using (while()) loop.
+#### Traversing linked list has Big O of time = O(n) and Big O of space = O(1).
+#### Adding Nodes can be done in the begining of the linked list with `Add()` method and in the middle of it by `AddBefor()`or `AddAfter()` methods.
+#### Linked lists can be linear structured (traversed sequentially) and non-linear structured (traversed non-sequentially).
+#### Linked lists don't need to be continuous in memory(as arrays), they can grow dynamically.
+#### Parts of linked lists: Head(starting point) and the end of the list isn’t a node, but rather a node that points to null, or an empty value.
+#### Each single node must have two element:
 - `DATA`: The information that the node contains.
 - `NEXT`: reference to the next node.
-###### The main properties of a linked list data structure are:
+#### The main properties of a linked list data structure are:
 - `SIZE`: The number of elements in the linked list.
 - `HEAD`: The first element in the linked list.
 - `TAIL`: The last element in the linked list.
-###### The main operations of a linked list data structure are:
+#### The main operations of a linked list data structure are:
 - `insertAt`: Inserts an element at the specific index.
 - `removeAt`: Removes the element at the specific index.
 - `getAt`: Retrieves the element at the specific index.
