@@ -57,3 +57,4 @@ NPM is the world's largest software registry. Open source developers from every 
 CI "Continuous Integration": is a workflow strategythat helps ensure everyone's changes will integrate with the current version of the project. This lets you catch bugs, reduce merge conflicts, and have confidence your software is working.
 CD "Continuous Delivery": is the practice of developing software in such a way that you could release it at any time. When coupled with CI, continuous delivery lets you develop features with modular code in more manageable increments.
 
+[Home Page](./README.md)
