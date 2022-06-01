@@ -27,6 +27,7 @@ A Linked List is a sequence of Nodes that are connected/linked to each other. Th
 - Circular Linked List: Is a little odd in that it doesn’t end with a node pointing to a null value. Instead, it has a node that acts as the tail of the list (rather than the conventional head node), and the node after the tail node is the beginning of the list. 
 
 ### Important Notes of Linked Lists:
+
 #### The best way to traverse through a linked list is by using (while()) loop.
 #### Traversing linked list has Big O of time = O(n) and Big O of space = O(1).
 #### Adding Nodes can be done in the begining of the linked list with `Add()` method and in the middle of it by `AddBefor()`or `AddAfter()` methods.
