@@ -20,13 +20,13 @@ The worst case: The efficiency for the worst possible input of size n.
 ## What is a Linked List
 A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link.
 
-### Types of Linked Lists:
+## Types of Linked Lists:
 - Singly: Singly refers to the number of references the node A has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
 - Doubly: Doubly refers to there being two (double) references within the node. A Doubly linked list means that there is a reference to both the Next and Previous node.
 - Multiply Linked List: In a multiply linked list, each node consists of two or more link fields. Each field is used to join the same set of records in a different order of the same set.
 - Circular Linked List: Is a little odd in that it doesn’t end with a node pointing to a null value. Instead, it has a node that acts as the tail of the list (rather than the conventional head node), and the node after the tail node is the beginning of the list. 
 
-### Important Notes of Linked Lists:
+## Important Notes of Linked Lists:
 
 #### The best way to traverse through a linked list is by using (while()) loop.
 #### Traversing linked list has Big O of time = O(n) and Big O of space = O(1).
@@ -47,6 +47,8 @@ A Linked List is a sequence of Nodes that are connected/linked to each other. Th
 - `getAt`: Retrieves the element at the specific index.
 - `clear`: Empties the linked list.
 - `reverse`: Reverses the order of elements in the linked list.
+
+
 
 [Home Page](./README.md)
 
