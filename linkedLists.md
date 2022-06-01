@@ -11,6 +11,7 @@ We have 4 keys areas for analysis:
 - Input Size: The size of the parameter values that are read by the algorithm. (n) Higher n >> More likely higher running time and memory space.
 - Units of Measurement: millisecodns and number of operations for running time factor and the amount of space needed for input, output, code and working area for space factor.
 - Orders of Growth: 
+
 ![Order of Growth](./read03a.PNG)
 
 ### Summery of Big O
