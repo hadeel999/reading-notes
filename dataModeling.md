@@ -1,15 +1,21 @@
 # Data Modeling
 
 ## NoSQL VS SQL
-| SQL                                           | NoSQL                                                                          |
-| -----------                                   | -----------                                                                    |
-| Relational Databases                          | Non-Relational or Distributed Database                                         |
-| Table based databases                         | document based, key-value pairs, graph databases or wide-column stores.        |
-| Predefined schema                             | dynamic schema                                                                 |
-| Vertically scalable                           | Horizontally scalable                                                          |
-| Uses SQL (Structured Query Language)          | Using UnQL (Unsructured Query Language)                                        |
-| Examples: MySql, Oracle, Sqlite, Postgres and MS-SQL. | Examples: MongoDB, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j and CouchDb  |
+### SQL:
+- Relational Databases.
+- Table based databases.
+- Predefined schema.
+- Vertically scalable.
+- Uses SQL (Structured Query Language).
+- Examples: MySql, Oracle, Sqlite, Postgres and MS-SQL.
 
+### NoSQL:
+- Non-Relational or Distributed Database.
+- Document based, key-value pairs, graph databases or wide-column stores.
+- Dynamic schema.
+- Horizontally scalable.
+- Using UnQL (Unsructured Query Language).
+- Examples: MongoDB, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j and CouchDb.
 
 ### For complex queries:
 - SQL: Good fit for the complex query intensive environment.
