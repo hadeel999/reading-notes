@@ -14,4 +14,5 @@
 ### [Read 01 - TDD](./tdd.md)
 ### [Read 02 - Express REST API](./expressRestAPI.md)
 ### [Read 03 - Linked Lists](./linkedLists.md)
+### [Read 04 - Data Modeling](./dataModeling.md)
 ## Frontent Part:
