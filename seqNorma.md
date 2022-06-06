@@ -50,5 +50,3 @@ Because we need the source and target models to know about existence of our asso
 
 [References](https://sequelize.org/docs/v6/core-concepts/assocs/)
 [Home Page](./README.md)
-
-
