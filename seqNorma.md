@@ -36,7 +36,8 @@ Sequelize will automatically create this model C (unless it already exists) and 
 > Movie.belongsToMany(Actor, { through: 'ActorMovies' });
 > 
 > Actor.belongsToMany(Movie, { through: 'ActorMovies' });
-#### Sequelize will automatically create the ActorMovies model which will act as the junction model. I can create it to.
+
+### Sequelize will automatically create the ActorMovies model which will act as the junction model. I can create it to.
 
 ## Notes
 ### There are three ways to specify a different name for the foreign key:
