@@ -30,8 +30,11 @@ Sequelize will automatically create this model C (unless it already exists) and 
 ## Many-To-Many relationships
 ### Two models: `Movie` and `Actor`.
 > `const Movie = sequelize.define('Movie', { name: DataTypes.STRING });`
+> 
 > `const Actor = sequelize.define('Actor', { name: DataTypes.STRING });`
+> 
 > `Movie.belongsToMany(Actor, { through: 'ActorMovies' });`
+> 
 > `Actor.belongsToMany(Movie, { through: 'ActorMovies' });`
 #### Sequelize will automatically create the ActorMovies model which will act as the junction model. I can create it to.
 
