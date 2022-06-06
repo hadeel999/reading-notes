@@ -3,7 +3,7 @@
 There are three standard associations: One-To-One, One-To-Many and Many-To-Many.
 We first must make the model for example:`sequelize.define('A',{//defineDataTypes})`.
 
-## Introduction
+## Overview
 
 ### Sequelize provides *four* types of associations that should be combined to create them:
 - `HasOne`: `A.hasOne(B)`: One-To-One relationship exists between A and B, with the foreign key being defined in the target model (B).
