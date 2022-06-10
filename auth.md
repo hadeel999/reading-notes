@@ -30,10 +30,14 @@ The BA mechanism does not provide confidentiality protection for the transmitted
 ### Protocol
 #### Server side:
 `WWW-Authenticate: Basic realm="User Visible Realm"`
+
 The server may choose to include the charset parameter:
+
 `WWW-Authenticate: Basic realm="User Visible Realm", charset="UTF-8"`
+
 #### Client side:
 `username:password`
+
 Or `QWxhZGRpbjpvcGVuIHNlc2FtZQ==` >> `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==`
 
 ## [Authentication Cheat Sheet ](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
@@ -43,16 +47,19 @@ Or `QWxhZGRpbjpvcGVuIHNlc2FtZQ==` >> `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc
 
 ### Usage
 #### async: 
+
 >> const bcrypt = require('bcrypt');
 >> const saltRounds = 10;
 >> const myPlaintextPassword = 's0/\/\P4$$w0rD';
 >> const someOtherPlaintextPassword = 'not_bacon';
 
 #### To hash a password:
+
 >> // Auto-gen a salt and hash
 >> bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
 >>   // Store hash in your password DB.
 >> });
+
 
 >> // Generate a salt and hash on separate function calls
 >> bcrypt.genSalt(saltRounds, function(err, salt) {
@@ -62,6 +69,7 @@ Or `QWxhZGRpbjpvcGVuIHNlc2FtZQ==` >> `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc
 >> });
 
 #### To check a password:
+
 >> // Load hash from your password DB.
 >> bcrypt.compare(myPlaintextPassword, hash, function(err, result) {
 >>    // result == true
@@ -69,6 +77,7 @@ Or `QWxhZGRpbjpvcGVuIHNlc2FtZQ==` >> `Authorization: Basic QWxhZGRpbjpvcGVuIHNlc
 >> bcrypt.compare(someOtherPlaintextPassword, hash, function(err, result) {
 >>    // result == false
 >> });
+
 
 ##### [More about node.bcrypt.js](https://www.npmjs.com/package/bcrypt)
 
