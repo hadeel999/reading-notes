@@ -2,6 +2,7 @@
 Many desktop applications and almost every web service need to store a collection of user data and the passwords, that has to be stored using a hashing algorithm.
 
 Cryptographic hash algorithms MD5, SHA1, SHA256, SHA512, SHA-3 are general purpose hash functions, designed to calculate a digest of huge amounts of data in as short a time as possible. 
+
 Hashing is the greatest way for protecting passwords and considered to be pretty safe for ensuring the integrity of data or password.
 
 ## Problems With Cryptographic Hash Algorithm
