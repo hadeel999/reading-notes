@@ -7,8 +7,10 @@ Hashing is the greatest way for protecting passwords and considered to be pretty
 
 ## Problems With Cryptographic Hash Algorithm
 - Brute Force attack.
+
 Hashes can't be reversed >> An attacker can simply keep trying different inputs until he does not find the right now that generates the same hash value.
 - Hash Collision attack.
+
 Hash functions have infinite input length and a predefined output length >> There is inevitably going to be the possibility of two different inputs that produce the same output hash.
 
 ### What exactly could be a good for securing your passwords with hashing?
