@@ -28,6 +28,7 @@
 Two parts:
 - Type of the token.
 - Signing algorithm being used, such as HMAC SHA256 or RSA.
+
 ![](./images/read06a.PNG)
 
 ### Payload
@@ -36,18 +37,22 @@ Types of claims:
 - Registered claims.
 - Public claims.
 - Private claims.
+
 ![](./images/read06b.PNG)
 
 ### Signature
 To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
 For example if you want to use the HMAC SHA256 algorithm, the signature will be created in the following way:
+
 ![](./images/read06c.PNG.PNG)
 
 ### Combine all to form JWT
+
 ![](./images/read06d.PNG.PNG)
 
 ## How do JWT work?
+
 ![](./images/read06e.png)
 
 
