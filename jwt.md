@@ -48,4 +48,4 @@ For example if you want to use the HMAC SHA256 algorithm, the signature will be 
 ![](./images/read06d.PNG.PNG)
 
 ## How do JWT work?
-![](./images/read06e.png.PNG.PNG)
+![](./images/read06e.png)
