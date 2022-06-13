@@ -49,3 +49,10 @@ For example if you want to use the HMAC SHA256 algorithm, the signature will be 
 
 ## How do JWT work?
 ![](./images/read06e.png)
+
+
+## References:
+[JWTs Explained](https://www.youtube.com/watch?v=926mknSW9Lo)
+[Intro to JWT](https://jwt.io/introduction/)
+
+### [Home Page](./README.md)
