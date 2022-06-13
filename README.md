@@ -17,4 +17,5 @@
 ### [Read 03 - Data Modeling](./dataModeling.md)
 ### [Read 04 - Sequelize-Normalization](./seqNorma.md)
 ### [Read 05 - Authentication](./auth.md)
+### [Read 06 - JWT](./jwt.md)
 ## Frontent Part:
