@@ -49,7 +49,7 @@ For example if you want to use the HMAC SHA256 algorithm, the signature will be 
 
 ### Combine all to form JWT
 
-![](./images/read06d.PNG.PNG)
+![](./images/read06d.PNG)
 
 ## How do JWT work?
 
