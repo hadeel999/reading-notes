@@ -14,7 +14,7 @@ RBAC is the idea of assigning system access to users based on their role in an o
 #### RBAC arguably offers a more simplified and manageable approach.
 
 ## RBAC implementation
-Five steps:
+### Five steps:
 1. Inventory your systems: What resources you have for which you need to control access.
 2. Analyze your workforce and create roles: Group your workforce members into roles with common access needs. 
 3. Assign people to roles: Which role(s) each employee belongs in.
