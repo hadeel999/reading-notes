@@ -18,4 +18,5 @@
 ### [Read 04 - Sequelize-Normalization](./seqNorma.md)
 ### [Read 05 - Authentication](./auth.md)
 ### [Read 06 - JWT](./jwt.md)
+### [Read 07 - Access Control](./acl.md)
 ## Frontent Part:
