@@ -19,4 +19,7 @@
 ### [Read 05 - Authentication](./auth.md)
 ### [Read 06 - JWT](./jwt.md)
 ### [Read 07 - Access Control](./acl.md)
+### [Read 08 - Authorization/Authentication](./read8.md)
+### [Read 09 - Stacks and Queues](./stacksQueues.md)
+
 ## Frontent Part:
