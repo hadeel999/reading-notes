@@ -29,5 +29,5 @@ https://tasneem-hadeel-project.herokuapp.com/
 6. API Router (/coffee).
 
 ## UML Diagram :
-![uml](./assest/project1a.PNG)
-![uml](./assest/project1b.PNG)
+![uml](./images/project1a.PNG)
+![uml](./images/project1b.PNG)
