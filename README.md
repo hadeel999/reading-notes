@@ -21,5 +21,7 @@
 ### [Read 07 - Access Control](./acl.md)
 ### [Read 08 - Authorization/Authentication](./read8.md)
 ### [Read 09 - Stacks and Queues](./stacksQueues.md)
+### [Read 10 - Event-Driven Programming in Node.js](./event.md)
+
 
 ## Frontent Part:
