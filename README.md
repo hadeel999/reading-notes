@@ -22,6 +22,7 @@
 ### [Read 08 - Authorization/Authentication](./read8.md)
 ### [Read 09 - Stacks and Queues](./stacksQueues.md)
 ### [Read 10 - Event-Driven Programming in Node.js](./event.md)
+### [Read 10 - Web Sockets](./webSockets.md)
 
 
 ## Frontent Part:
