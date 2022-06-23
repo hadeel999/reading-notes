@@ -14,32 +14,108 @@ To establish a WebSocket connection, the client sends a WebSocket handshake requ
 
 ![](./images/read12a.PNG)
 
-### JavaScript client example:
+## Socket.IO Tutorial
+Socket.IO enables real-time bidirectional event-based communication. It works on every platform, browser or device, focusing equally on reliability and speed.
+
+Sockets work based on *events*. These are some reserved events, which can be accessed using the socket object on the **server-side**:
+- `Connect`
+- `Message`
+- `Disconnect`
+- `Reconnect`
+- `Ping`
+- `Join` 
+- `Leave`
+
+The **client-side** socket object also provides us with some reserved events:
+- `Connect`
+- `Connect_error`
+- `Connect_timeout`
+- `Reconnect`, etc.
+
+### Socket.io Example:
+In the *Hello World* example, we used the connection and disconnection events to
+log when a user connected and left.
+
 ```
-// Creates new WebSocket object with a wss URI as the parameter
-const socket = new WebSocket('wss://game.example.com/ws/updates');
+require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
 
-// Fired when a connection with a WebSocket is opened
-socket.onopen = function () {
-  setInterval(function() {
-    if (socket.bufferedAmount == 0)
-      socket.send(getUpdateData());
-  }, 50);
-};
-
-// Fired when data is received through a WebSocket
-socket.onmessage = function(event) {
-  handleUpdateData(event.data);
-};
-
-// Fired when a connection with a WebSocket is closed
-socket.onclose = function(event) {
-  onSocketClose(event);
-};
-
-// Fired when a connection with a WebSocket has been closed because of an error
-socket.onerror = function(event) {
-  onSocketError(event);
-};
+app.get('/', function(req, res){
+   res.sendFile('E:/test/index.html');
+});
+ 
+io.on('connection', function(socket){
+   console.log('A user connected');
+ 
+   // Send a message after a timeout of 4seconds
+   setTimeout(function(){
+      socket.send('Sent a message 4seconds after connection!');
+   }, 4000);
+   socket.on('disconnect', function () {
+      console.log('A user disconnected');
+   });
+});
+http.listen(3000, function(){
+   console.log('listening on *:3000');
+});
 ```
 
+*Four* seconds after the client connects, **send** function on socket object will associates the '*message*' event. To handle this event on client side use this code in *index.html* file:
+```
+<!DOCTYPE html>
+<html>
+   <head><title>Hello world</title></head>
+   <script src="/socket.io/socket.io.js"></script>
+   <script>
+      var socket = io();
+      socket.on('message', function(data){document.write(data)});
+   </script>
+   <body>Hello world</body>
+</html>
+```
+#### Notes:
+- Client and server can emit custom events: `socket.emit('someEvent',{//details as an object})`. This event **someEvent** needs a listener, if it was in server we need in client this code to listen and handle it: `socket.on('someEvent',handleSomeEventFunction)`.
+
+- To broadcast an event from server-side: 
+```
+var io = require('socket.io')(http);
+io.sockets.emit('broadcast',{ description: clients + ' clients connected!'});
+```
+- To send an event to everyone, but the client that caused it: 
+```
+socket.emit('newclientconnect',{ description: 'Hey, welcome!'}); //this for the user who caused the event
+socket.broadcast.emit('newclientconnect',{ description: clients + ' clients connected!'}) //this for all other users except the one who caused it.
+```
+
+## Logging & Debugging
+### Server-side
+`DEBUG=* node app.js`
+
+### Client-side
+`localStorage.debug = '*';`
+To limit the output to get the debug info with incoming data from the socket:
+`localStorage.debug = 'socket.io-client:socket';`
+
+## [Chat Application Example](https://www.tutorialspoint.com/socket.io/socket.io_chat_application.htm)
+
+## WebSocket vs Socket.io
+
+![](./images/read12b.PNG)
+
+### Key Differences between WebSocket and socket.io
+- WebSocket provides the Connection over TCP, while Socket.io is a library to abstract the WebSocket connections.
+- WebSocket doesn’t have fallback options, while Socket.io supports fallback.
+- WebSocket is the technology, while Socket.io is a library for WebSockets.
+
+
+## References:
+
+[Web Sockets](https://en.wikipedia.org/wiki/WebSocket)
+
+[Socket.io Tutorial](https://www.tutorialspoint.com/socket.io/)
+
+[Socket.io vs Web Sockets](https://www.educba.com/websocket-vs-socket-io/)
+
+
+### [Home Page](./README.md)
