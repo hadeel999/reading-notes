@@ -23,6 +23,7 @@
 ### [Read 09 - Stacks and Queues](./stacksQueues.md)
 ### [Read 10 - Event-Driven Programming in Node.js](./event.md)
 ### [Read 11 - Socket.io](./webSockets.md)
+### [Read 12 - Message Queues](./messageQueues.md)
 
 
 ## Frontent Part:
