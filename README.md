@@ -24,6 +24,7 @@
 ### [Read 10 - Event-Driven Programming in Node.js](./event.md)
 ### [Read 11 - Socket.io](./webSockets.md)
 ### [Read 12 - Message Queues](./messageQueues.md)
+### [Read 13 - ChatCord Project](./chatcordproj.md)
 
 
 ## Frontent Part:
