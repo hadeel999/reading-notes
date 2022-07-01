@@ -13,18 +13,19 @@
 ## Backend Part:
 ### [Read 01 - TDD](./tdd.md)
 ### [Read 02 - Express REST API](./expressRestAPI.md)
-### [Read Challenge - Linked Lists](./linkedLists.md)
+### [Read - Linked Lists](./linkedLists.md)
 ### [Read 03 - Data Modeling](./dataModeling.md)
 ### [Read 04 - Sequelize-Normalization](./seqNorma.md)
 ### [Read 05 - Authentication](./auth.md)
 ### [Read 06 - JWT](./jwt.md)
 ### [Read 07 - Access Control](./acl.md)
 ### [Read 08 - Authorization/Authentication](./read8.md)
-### [Read 09 - Stacks and Queues](./stacksQueues.md)
+### [Read - Stacks and Queues](./stacksQueues.md)
 ### [Read 10 - Event-Driven Programming in Node.js](./event.md)
 ### [Read 11 - Socket.io](./webSockets.md)
 ### [Read 12 - Message Queues](./messageQueues.md)
 ### [Read 13 - ChatCord Project](./chatcordproj.md)
+### [Read - Trees](./trees.md)
 
 
 ## Frontent Part:
