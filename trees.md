@@ -56,6 +56,7 @@ ALGORITHM inOrder(root)
 ```
 
 - **Post-order**: `left >> right >> root`.
+
 ```
 ALGORITHM postOrder(root)
 // INPUT <-- root node
