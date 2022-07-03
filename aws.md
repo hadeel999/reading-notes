@@ -35,7 +35,7 @@ X1 Instances are a part of the Amazon EC2 memory-optimized instance family and a
 
 Compared to other EC2 instances, X1 instances have one of the lowest price per GiB of RAM, and are ideal for running in-memory databases like SAP HANA, big data processing engines like Apache Spark or Presto, and high-performance computing (HPC) applications.
 
-### [Learn More] (https://www.youtube.com/watch?v=lZMkgOMYYIg) 
+### [Learn More](https://www.youtube.com/watch?v=lZMkgOMYYIg) 
 
 ## Elastic Beanstalk
 
