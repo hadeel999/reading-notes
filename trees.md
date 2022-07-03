@@ -154,3 +154,9 @@ In a **BST**, nodes are organized in a manner where all values that are smaller 
 ![](./images/trees5.PNG)
 
 Time complexity is O(h) where h is the hieght of the tree >> O(log(n)) and space complexity is O(1), no need for extra spaces.
+
+## Resources
+[Trees](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/Trees.html)
+
+
+### [Home Page](./README.md)
