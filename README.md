@@ -27,6 +27,8 @@
 ### [Read 14 - ChatCord Project](./chatcordproj.md)
 ### [Read - Trees](./trees.md)
 ### [Read 16 - AWS Cloud Servers](./aws.md)
+### [Read 16 - AWS S3 and Lambda](./aws2.md)
+
 
 
 ## Frontent Part:
