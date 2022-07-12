@@ -1,12 +1,4 @@
-# AWS Events
-
-## AWS SQS and SNS
-**SNS** >> Simple Notification Service.
-**SQS** >> Simple Queue Service.
-
-### Difference between SQS and SNS
-**SNS** is a distributed publish-subscribe service.
-**SQS** is distributed queuing service.
+# AWS Events - AWS SQS and SNS
 
 ## SNS (Simple Notification Service)
 Amazon SNS is a fast, flexible, fully managed push notification service that lets you send individual messages or to bulk messages to large numbers of recipients.
@@ -39,6 +31,7 @@ Messages can’t be received by multiple receivers at the same time. Any one rec
 - Only one subscriber is needed.
 
 ## Summary
+- **SNS** is a distributed publish-subscribe service and **SQS** is distributed queuing service.
 - **SQS** is mainly used to decouple applications. 
 - **SNS** distributes several copies of message to several subscribers. 
 - In **SQS** the message delivery is guaranteed but in **SNS** it is not.
