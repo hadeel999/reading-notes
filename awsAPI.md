@@ -78,6 +78,6 @@ Within the Serverless ecosystem, API Gateway is the piece that ties together Ser
 
 [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 
-[Dynamoose](https://www.serverless.com/guides/amazon-api-gateway)
+[Dynamoose](https://dynamoosejs.com/getting_started/Introduction/)
 
 ### [Home Page](./README.md)
