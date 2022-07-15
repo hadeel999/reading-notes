@@ -68,7 +68,7 @@ Within the Serverless ecosystem, API Gateway is the piece that ties together Ser
 - Powerful Conditional/Filtering Support.
 - Callback & Promise support.
 
-## Reference:
+## References:
 
 [AWS API Gateway Overview](https://www.serverless.com/guides/amazon-api-gateway)
 
