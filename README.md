@@ -32,5 +32,5 @@
 ### [Read 19 - AWS API, Dynamo and Lambda](./awsAPI.md)
 
 
-
 ## Frontent Part:
+### [Read 26 - Component Based UI](./componentBasedUI.md)
