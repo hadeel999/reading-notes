@@ -34,3 +34,4 @@
 
 ## Frontent Part:
 ### [Read 26 - Component Based UI](./componentBasedUI.md)
+### [Read 26 - Hooks](./hooks.md)
