@@ -33,6 +33,19 @@ A *hashtable* traditionally is created from an array. We always like the size 10
 3. Use modulo to get the remainder of the result, when divided by the total size of the array.
 4. Insert into the array at that index.
 
+```
+Key = "Cat"
+Value = "Josie"
+
+67 + 97 + 116 = 280
+
+280 * 599 = 69648
+
+69648 % 1024 = 16
+
+Key gets placed in index of 16. 
+```
+
 ## Collisions
 A *collision* occurs when more than one key hashes to the same index in an array. A *perfect hash* will never have any collisions. To put this into perspective, the worst possible hash is one that hashes every single key to the same exact index of an array. The more keys you have hashed to a specific index, the more key/value pair combos you can potentially have.
 
