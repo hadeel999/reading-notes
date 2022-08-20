@@ -38,3 +38,5 @@
 ### [Read 28 - Component Lifecycle / Use Effect Hook](./useEffectHook.md)
 ### [Read 29 - Advanced State with Reducers](./advanceStateWithReducers.md)
 ### [Read - Hash Tables](./hashTables.md)
+### [Read 31 - Context API](./contextAPI.md)
+
