@@ -39,4 +39,6 @@
 ### [Read 29 - Advanced State with Reducers](./advanceStateWithReducers.md)
 ### [Read - Hash Tables](./hashTables.md)
 ### [Read 31 - Context API](./contextAPI.md)
+### [Read 32 - Context API - Behaviors](./provider.md)
+
 
