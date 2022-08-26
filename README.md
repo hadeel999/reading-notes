@@ -40,5 +40,5 @@
 ### [Read - Hash Tables](./hashTables.md)
 ### [Read 31 - Context API](./contextAPI.md)
 ### [Read 32 - Context API - Behaviors](./provider.md)
-
+### [Read 33 - Login and Auth](./loginAuth.md)
 
