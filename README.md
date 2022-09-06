@@ -44,3 +44,4 @@
 ### [Read 34 - API Integration](./APIIntegration.md)
 ### [Read 35 - Application State with Redux](./StateWithRedux.md)
 ### [Read 36 - Redux - Combined Reducers](./redux2.md)
+### [Read 37 - Redux - Asynchronous Actions](./redux3.md)
