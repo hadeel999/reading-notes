@@ -46,4 +46,4 @@
 ### [Read 36 - Redux - Combined Reducers](./redux2.md)
 ### [Read 37 - Redux - Asynchronous Actions](./redux3.md)
 ### [Read 38 - Redux - Additional Topics](./redux4.md)
-### [Read 41 - Redux - React Native](./reactNative.md)
+### [Read 41 - React Native](./reactNative.md)
